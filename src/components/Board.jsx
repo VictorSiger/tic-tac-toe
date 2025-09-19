@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Square from "./Square"
-import IsWinner from "./isWinner"
+import IsWinner from "./IsWinner"
 
 export default function Board({xIsNext, squares, onPlay}) {
 
